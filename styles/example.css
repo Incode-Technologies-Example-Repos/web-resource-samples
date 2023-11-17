@@ -1,0 +1,48 @@
+/** Change Fonts **/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway' !important;
+}
+
+/** Only Style Incode Prefixed CSS Selectors **/
+
+.IncodeRootContainer {
+    background-color: #f1f1f1 !important;
+}
+
+.IncodeContainer {
+    background-color: #f1f1f1 !important;
+    color: #050505 !important;
+}
+
+.IncodeParagraph {
+    color: #050505 !important;
+}
+
+.IncodeDocumentSelectorContainer {
+    background-color: #f1f1f1 !important;
+}
+
+/** Only Style Incode Prefixed CSS Selectors, but breaking our own rules  **/
+
+.IncodeDocumentSelectorContainer h1 {
+    color: #050505 !important;
+}
+
+.IncodeDocumentSelectorContainer button p {
+    color: #050505 !important;
+}
+
+.IncodeIdCardButton {
+    border: 1px solid #7E4BF7 !important;
+    padding: 12px 20px !important;
+    background: #9369F7 !important;
+}
+
+.IncodeBookletButton {
+    border: 1px solid #7E4BF7 !important;
+    padding: 12px 20px !important;
+    background: #9369F7 !important;
+}
